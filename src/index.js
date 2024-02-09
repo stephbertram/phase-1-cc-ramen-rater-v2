@@ -42,6 +42,7 @@ const handleFormSubmit = e => {
     restaurant: document.querySelector('#new-restaurant').value,
     image: document.querySelector('#new-image').value,
     rating: document.querySelector('#new-rating').value,
+    
     comment: document.querySelector('#new-comment').value,
   }
   displayRamens(newRamen);
